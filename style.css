@@ -1,0 +1,124 @@
+* {
+    margin: 0px
+}
+
+body {
+color: #0a0a0a;
+background-color : #fafafa;
+}
+
+.navbar {
+    height: 50px;
+    width: 100%;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 14px;
+    font-family: 'Inter';
+    border-bottom: 1px solid #E5E5E5;
+    position: fixed;
+    background-color: white;
+}
+
+.name {
+    display: inline-flex;
+    padding-left: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.name a {
+    text-decoration: none;
+    color: #0a0a0a;
+}
+
+.table {
+    display: inline-flex;
+    padding-right: 50px;
+    gap: 20px;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: #6B6B6B;
+}
+
+i {
+    color: #6B6B6B;
+}
+
+.hero {
+    max-width: 680px;
+    margin: auto;
+    padding:96px;
+    font-family: 'Playfair Display' , sans-serif;
+    padding-top: 120px;
+}
+
+.heading {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-family: 'Inter',sans-serif;
+}
+
+.primary {
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    border-radius: 5px;
+    padding: 9px 20px;
+    font-family: 'Inter';
+    border: 1px solid black;
+
+}
+
+.secondary {
+    background-color: white;
+    color: black;
+    font-size: 13px;
+    border-radius: 5px;
+    padding: 9px 20px;
+    font-family: 'Inter';
+    margin-left: 10px;
+    border: 1px solid black;
+}
+
+.primary:hover , .secondary:hover {
+    transform: scale(1.04);
+    transition-duration: 0.5s;
+}
+
+.divide {
+    height: 1px;
+    background-color: #E5E5E5;
+    max-width: 960px;
+    margin: auto;
+}
+
+.about{
+    max-width: 680px;
+    margin: auto;
+    padding:64px 24px;
+    font-family: 'Inter ' , sans-serif;
+    color: #6B6B6B;
+}
+
+.about-label{
+    font-size: 13px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.description-about{
+    font-size: 17px;
+    margin-bottom: 35px;
+    font-weight: lighter;
+}
